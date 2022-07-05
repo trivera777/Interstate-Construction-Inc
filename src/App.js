@@ -1,13 +1,12 @@
-import logo from '../src/interstate.png';
-import './App.css';
+import Navbar from "./components/Navbar";
+import React from "react";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        logo
-      </header>
+      <Navbar />
     </div>
   );
 }
