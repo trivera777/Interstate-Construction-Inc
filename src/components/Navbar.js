@@ -1,6 +1,6 @@
 import React from "react";
 // import logo from "./interstate.png";
-import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 
 function NavBar() {
   return (
