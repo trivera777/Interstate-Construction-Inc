@@ -18,6 +18,10 @@ function Contact() {
                 <Form.Label>Email address</Form.Label>
                 <Form.Control type="email" placeholder="name@example.com" />
               </Form.Group>
+              <Form.Group className="mb-4" id="contact">
+                <Form.Label>Phone Number</Form.Label>
+                <Form.Control type="text" placeholder="(XXX)XXX-XXXX" />
+              </Form.Group>
               <Form.Group
                 className="mb-3"
                 controlId="exampleForm.ControlTextarea1"
