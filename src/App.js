@@ -9,12 +9,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <>
-  <Navbar />
-  <About />
-  <Projects />
-  <Contact />
-  </>
-  )
+      <Navbar />
+      <About />
+      <Projects />
+      <Contact />
+    </>
+  );
 }
-
+ 
 export default App;
