@@ -1,6 +1,6 @@
 import React from "react";
 import "./navbar.css";
-// import logo from "./interstate.png";
+// import logo from "../interstate.png";
 import { Navbar, Nav } from "react-bootstrap";
 
 function NavBar() {
