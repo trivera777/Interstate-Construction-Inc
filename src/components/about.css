@@ -1,6 +1,5 @@
 .about {
-    background-image: "url(./mountains.jpeg)";
-    background-color: aqua;
+    background-image: "url(../moutains.jpeg)";
     height: 100vh;
     width: 100vw;
 }
