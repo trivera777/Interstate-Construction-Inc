@@ -1,17 +1,19 @@
 import React from "react";
 import "./projects.css";
 import Carousel from "react-bootstrap/Carousel";
-import background from "../mountains.jpeg";
+import background from "../mountains2.jpg";
 
 function CarouselFadeExample() {
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <div className="carousel">
-        <Carousel fade>
+        <Carousel 
+        style={{width: "80vw", height: "90vh"}}
+        fade>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="holder.js/800x400?text=First slide&bg=373940"
+              src={background}
               alt="First slide"
             />
             <Carousel.Caption>
@@ -34,7 +36,7 @@ function CarouselFadeExample() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="holder.js/800x400?text=Third slide&bg=20232a"
+              src="https://www.pexels.com/photo/brown-rocky-mountain-under-a-calm-blue-sky-3390971/"
               alt="Third slide"
             />
 

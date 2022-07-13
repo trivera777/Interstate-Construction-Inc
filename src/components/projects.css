@@ -1,15 +1,9 @@
 .projects {
-    background-color: darkorange;
-    display:flexbox;
     height: 100vh;
     width: 100vw;
-    align-content: center;
-    justify-content: center;
 }
 
 .carousel {
-    align-content: center;
+    display: flex;
     justify-content: center;
-    height: 90vh;
-    width: 90vw;
 }
