@@ -6,6 +6,7 @@ import background from "../mountains2.jpg";
 function CarouselFadeExample() {
   return (
     <div className="projects" id="projects">
+        <h3>Images</h3>
       <div className="carousel">
         <Carousel 
         style={{width: "80vw", height: "90vh"}}
