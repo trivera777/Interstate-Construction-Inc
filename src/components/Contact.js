@@ -1,10 +1,11 @@
 import React from "react";
+import './contact.css'
 
 import { Form, Button, Card } from "react-bootstrap";
 
 function Contact() {
   return (
-    <>
+    <div className="contact">
       <Card style={{ width: "50rem" }}>
         <Card.Body>
           <Card.Title>Contact Us</Card.Title>
@@ -35,7 +36,7 @@ function Contact() {
           </Card.Text>
         </Card.Body>
       </Card>
-    </>
+    </div>
   );
 }
 
