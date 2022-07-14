@@ -9,7 +9,7 @@ function CarouselFadeExample() {
         <h3>Images</h3>
       <div className="carousel">
         <Carousel 
-        style={{width: "80vw", height: "90vh"}}
+        style={{width: "70vw", height: "70%"}}
         fade>
           <Carousel.Item>
             <img
